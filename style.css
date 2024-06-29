@@ -1,41 +1,21 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 10px;
-    margin-top: 0;
-    padding: 10px;
+.grid-container {
+display: flex;
+  grid-gap: 10px;
+  column-gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
 }
 
-header {
-    background-image: url("OIP.jpg");
-        height: 300px;
-    color: hsl(260, 36%, 95%);
-    padding: auto;
-    margin: 20px;
-    margin-top: 0%;
-    text-align: center;
-    
+.grid-item {
+  background-color: rgba(6, 28, 37, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  color: aliceblue;
 }
-#nav-ul{
-    margin-left: 0px;
-    background: rgb(236, 229, 229);
-    display: flex;
-    margin-top: 0%;
-    grid-gap: 10px;
-    column-gap: 20px;
-    list-style: none;
-    
-}
-h1 {
-    margin: 0;
-    background-color: rgb(236, 236, 246);
-    color: rgb(9, 10, 11);
-    height: auto;
-    width: 80%;
-    text-align: center;
-    margin-left: 10%;
-}
-img {
-    height: 200px;
-    width: 200px;
-    border-radius: 60%;
+.form{
+  background-color: aquamarine;
 }
